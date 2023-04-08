@@ -5,4 +5,8 @@
 </script>
 
 <Header />
-<Products />
+<div class="w-[100%] h-[950px] flex bg-slate-900 m-auto">
+  <Products />
+  <Products />
+  <Products />
+</div>
