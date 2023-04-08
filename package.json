@@ -26,6 +26,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@prisma/client": "^4.6.1"
+    "@prisma/client": "^4.6.1",
+    "@alan-ai/alan-sdk-web": "^1.8.43"
   }
 }
