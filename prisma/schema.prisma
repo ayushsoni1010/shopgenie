@@ -40,3 +40,10 @@ model Review {
   userId    String  @db.ObjectId
   productId String  @db.ObjectId
 }
+
+model ar {
+  id       String @id @default(auto()) @map("_id") @db.ObjectId
+  path     String
+  scale    String
+  rotation String
+}
