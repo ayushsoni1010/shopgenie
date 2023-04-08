@@ -1,5 +1,6 @@
-export const prerender = true
-import { prisma } from "$lib/prisma.js"
+import { prisma } from '$lib/prisma.js'
+export const prerender = false;
+export const ssr = false;
 
 export async function load() {
     try {
@@ -7,10 +8,11 @@ export async function load() {
         let grub = await prisma.product.findMany()
         console.log(grub)
         await prisma.$disconnect()
-        return { res: grub }
+        return { grub: grub }
     } catch (e) {
         await prisma.$disconnect()
-        return { error: e }
+        console.log(e)
+        return { grub: "e" }
     }
 
 }
