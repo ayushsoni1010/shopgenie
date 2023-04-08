@@ -26,15 +26,11 @@
 
 <div>
   <header>
-    <div class="flex items-center justify-between">
+    <div class="flex items-center py-4 justify-between">
       <a href="/" class="">
-        <div class="flex items-center relative top-2">
-          <img
-            src="/images/logo.png"
-            alt="Logo"
-            class="w-24 rounded-full"
-            srcset=""
-          />
+        <div class="flex items-center">
+          <img src="/images/logo.png" alt="Logo" class="w-10" srcset="" />
+          <p class="text-lg text-white ml-2 font-medium">Shop Genie</p>
         </div>
       </a>
       <div class="flex items-center list-none text-white">
@@ -54,23 +50,6 @@
         >
         <a href="/signup" class="px-4 py-2 bg- bg-gray-100 rounded-md">Signup</a
         >
-        <!-- <a
-          href="/new"
-          class="hover:bg-blue-400 group flex items-center rounded-md bg-blue-500 text-white text-sm font-medium pl-2 pr-3 py-2 shadow-sm"
-        >
-          <svg
-            width="20"
-            height="20"
-            fill="currentColor"
-            class="mr-2"
-            aria-hidden="true"
-          >
-            <path
-              d="M10 5a1 1 0 0 1 1 1v3h3a1 1 0 1 1 0 2h-3v3a1 1 0 1 1-2 0v-3H6a1 1 0 1 1 0-2h3V6a1 1 0 0 1 1-1Z"
-            />
-          </svg>
-          New
-        </a> -->
       </div>
     </div>
   </header>
