@@ -25,7 +25,7 @@
     <p class="text-white">{desc}</p>
 
     <!-- Rating -->
-    <div class=" font-extrabold text-6xl flex justify-center mb-2" />
+    <div class=" font-extrabold text-6xl flex justify-center mb-2">⭐⭐⭐</div>
     <h3 class="text-center text-green-700 text-2xl mb-3 font-bold">
       Price: {price}$
     </h3>
@@ -42,7 +42,7 @@
     <button
       class="w-[100%] text-white p-3 border border-black text-center
       bg-gradient-to-br from-slate-900 to-slate-700">
-      Buy Now⭐⭐⭐
+      Buy Now
     </button>
   </div>
 </div>
