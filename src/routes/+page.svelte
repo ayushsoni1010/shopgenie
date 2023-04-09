@@ -1,12 +1,26 @@
 <script>
-  import Header from '$lib/components/Header.svelte'
+  import Header from "$lib/components/Header.svelte";
   // import Product from "$lib/components/Products.svelte";
-  import Products from '$lib/components/Products.svelte'
-  import Features from '../lib/components/Features.svelte'
+
+  import { useEffect } from "../lib/alanai_hook";
+
+  useEffect(() => {
+    alanBtn({
+      key: "224341b569f9a39f1d0a13a158e29c4b2e956eca572e1d8b807a3e2338fdd0dc/stage",
+      onCommand: (commandData) => {
+        if (commandData.command === "go:back") {
+          // Call the client code that will react to the received command
+        }
+      },
+    });
+  }, []);
+  import Products from "$lib/components/Products.svelte";
+  import Features from "../lib/components/Features.svelte";
 </script>
 
 <div
-  class="bg-gradient-to-r from-gray-500 via-gray-900 to-black h-screen px-20">
+  class="bg-gradient-to-r from-gray-500 via-gray-900 to-black h-screen px-20"
+>
   <Header />
   <div class="mt-20 grid grid-cols-2 grid-rows-2">
     <div class="mt-10 flex items-start justify-around flex-col">
@@ -21,7 +35,8 @@
       <a
         href="/products"
         class="hover:bg-blue-400 group flex items-center rounded-md bg-blue-500
-        text-white text-lg font-medium p-3 px-6 shadow-sm">
+        text-white text-lg font-medium p-3 px-6 shadow-sm"
+      >
         Explore products
       </a>
     </div>

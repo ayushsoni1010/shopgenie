@@ -20,10 +20,15 @@
   },
   "type": "module",
   "dependencies": {
+<<<<<<< HEAD
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0"
+=======
+    "@alan-ai/alan-sdk-web": "^1.8.43",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0"
+>>>>>>> f57635cb28bdeb1fc43fae0432c3488ffff2d92e
   }
 }
