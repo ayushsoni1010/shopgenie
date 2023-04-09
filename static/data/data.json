@@ -1,164 +1,152 @@
 [
-    {
-        "name": "Sofa",
-        "desc": "It is a piece of furniture typically designed to seat two or more people, with a padded seat and backrest, and with armrests. It can be placed in a living room or family room for seating and relaxation.",
-        "price": 3000,
-        "variant": [
-            "big",
-            "small"
-        ],
-        "reviews": [
-            {
-                "byuser": "user1",
-                "msg": "Very comfortable, and soft",
-                "rating": 4
-            },
-            {
-                "byuser": "user2",
-                "msg": "Very comfortable, and soft and comfy",
-                "rating": 4
-            },
-            {
-                "byuser": "user3",
-                "msg": "great choice",
-                "rating": 3
-            }
-        ],
-        "tags": "sofa,couch"
-    },
-    {
-        "name": "chair",
-        "desc": "Shop our collection of high-quality chairs for home or office. Stylish and comfortable, our ergonomic designs offer durability, function, and a range of colors and finishes.",
-        "price": 1000,
-        "variant": [
-            "lounge chair",
-            "office chair"
-        ],
-        "reviews": [
-            {
-                "byuser": "user2",
-                "msg": "Very comfortable, and soft",
-                "rating": 4
-            },
-            {
-                "byuser": "user1",
-                "msg": "Very comfortable, and soft and comfy",
-                "rating": 4
-            },
-            {
-                "byuser": "user3",
-                "msg": "great choice",
-                "rating": 3
-            }
-        ],
-        "tags": "chair,ofiice chair"
-    },
-    {
-        "name": "lamp",
-        "desc": "Illuminate your space with our range of stylish lamps. Our collection includes electric and battery-powered lamps with a variety of shades and designs to suit any decor. Browse now and brighten up your home or office!",
-        "price": 2000,
-        "variant": [
-            "lamp",
-            "table lamp"
-        ],
-        "reviews": [
-            {
-                "byuser": "user2",
-                "msg": "aesthetic feel",
-                "rating": 4
-            },
-            {
-                "byuser": "user1",
-                "msg": "lightens up the room perfectly",
-                "rating": 4
-            },
-            {
-                "byuser": "user3",
-                "msg": "great choice",
-                "rating": 3
-            }
-        ],
-        "tags": "lamp,lampshade"
-    },
-    {
-        "name": "clock",
-        "desc": "Never be late again with our collection of stylish clocks. From classic analog to modern digital designs, we have something for everyone. Our clocks come in a range of sizes, colors, and materials to complement any room. Browse now and keep time in style!",
-        "price": 2000,
-        "variant": [
-            "wall clock",
-            "table clock"
-        ],
-        "reviews": [
-            {
-                "byuser": "user2",
-                "msg": "aesthetic feel",
-                "rating": 4
-            },
-            {
-                "byuser": "user1",
-                "msg": "looks good on the wall",
-                "rating": 4
-            },
-            {
-                "byuser": "user3",
-                "msg": "great choice",
-                "rating": 3
-            }
-        ],
-        "tags": "clock, watch"
-    },
-    {
-        "name": "frame",
-        "desc": "Display your cherished memories with our collection of high-quality frames. From classic wooden designs to sleek metal finishes, we have a variety of styles to suit any decor. Our frames come in a range of sizes to fit your favorite photos perfectly. Browse now and showcase your special moments!",
-        "price": 500,
-        "variant": [
-            "frame set",
-            "hanging frame"
-        ],
-        "reviews": [
-            {
-                "byuser": "user2",
-                "msg": "aesthetic feel",
-                "rating": 4
-            },
-            {
-                "byuser": "user1",
-                "msg": "looks good on the wall",
-                "rating": 4
-            },
-            {
-                "byuser": "user3",
-                "msg": "great choice",
-                "rating": 3
-            }
-        ],
-        "tags": "wallframe,frame"
-    },
-    {
-        "name": "Vase",
-        "desc": "Add a touch of elegance to your home with our stunning vase collection. Our vases come in a variety of materials, shapes, and sizes to complement any decor. Whether you're looking for a statement piece or a simple accent, we have something for everyone. Browse now and elevate your interior design!",
-        "price": 500,
-        "variant": [
-            "ceramic vase",
-            "glass vase"
-        ],
-        "reviews": [
-            {
-                "byuser": "user2",
-                "msg": "elegant and classy",
-                "rating": 4
-            },
-            {
-                "byuser": "user1",
-                "msg": "gives room a new feel",
-                "rating": 4
-            },
-            {
-                "byuser": "user3",
-                "msg": "great choice",
-                "rating": 3
-            }
-        ],
-        "tags": "vase,glass vase"
-    }
+  {
+    "name": "Sofa",
+    "imageURL": "https://cdn.shopify.com/s/files/1/0631/1647/6675/products/Group2_1_800x.png?v=1675333333",
+    "desc": "It is a piece of furniture typically designed to seat two or more people, with a padded seat and backrest, and with armrests. It can be placed in a living room or family room for seating and relaxation.",
+    "price": 3000,
+    "variant": ["big", "small"],
+    "reviews": [
+      {
+        "byuser": "user1",
+        "msg": "Very comfortable, and soft",
+        "rating": 4
+      },
+      {
+        "byuser": "user2",
+        "msg": "Very comfortable, and soft and comfy",
+        "rating": 4
+      },
+      {
+        "byuser": "user3",
+        "msg": "great choice",
+        "rating": 3
+      }
+    ],
+    "tags": "sofa,couch"
+  },
+  {
+    "name": "chair",
+    "imageURL": "https://cdn.shopify.com/s/files/1/0631/1647/6675/products/Nestroot_14_700x.png?v=1675504734",
+    "desc": "Shop our collection of high-quality chairs for home or office. Stylish and comfortable, our ergonomic designs offer durability, function, and a range of colors and finishes.",
+    "price": 1000,
+    "variant": ["lounge chair", "office chair"],
+    "reviews": [
+      {
+        "byuser": "user2",
+        "msg": "Very comfortable, and soft",
+        "rating": 4
+      },
+      {
+        "byuser": "user1",
+        "msg": "Very comfortable, and soft and comfy",
+        "rating": 4
+      },
+      {
+        "byuser": "user3",
+        "msg": "great choice",
+        "rating": 3
+      }
+    ],
+    "tags": "chair,ofiice chair"
+  },
+  {
+    "name": "lamp",
+    "imageURL": "https://cdn.shopify.com/s/files/1/0631/1647/6675/products/Nestroot_36_700x.png?v=1675676095",
+    "desc": "Illuminate your space with our range of stylish lamps. Our collection includes electric and battery-powered lamps with a variety of shades and designs to suit any decor. Browse now and brighten up your home or office!",
+    "price": 2000,
+    "variant": ["lamp", "table lamp"],
+    "reviews": [
+      {
+        "byuser": "user2",
+        "msg": "aesthetic feel",
+        "rating": 4
+      },
+      {
+        "byuser": "user1",
+        "msg": "lightens up the room perfectly",
+        "rating": 4
+      },
+      {
+        "byuser": "user3",
+        "msg": "great choice",
+        "rating": 3
+      }
+    ],
+    "tags": "lamp,lampshade"
+  },
+  {
+    "name": "clock",
+    "imageURL": "https://cdn.shopify.com/s/files/1/0631/1647/6675/products/Nestroot_36_700x.png?v=1675676095",
+    "desc": "Never be late again with our collection of stylish clocks. From classic analog to modern digital designs, we have something for everyone. Our clocks come in a range of sizes, colors, and materials to complement any room. Browse now and keep time in style!",
+    "price": 2000,
+    "variant": ["wall clock", "table clock"],
+    "reviews": [
+      {
+        "byuser": "user2",
+        "msg": "aesthetic feel",
+        "rating": 4
+      },
+      {
+        "byuser": "user1",
+        "msg": "looks good on the wall",
+        "rating": 4
+      },
+      {
+        "byuser": "user3",
+        "msg": "great choice",
+        "rating": 3
+      }
+    ],
+    "tags": "clock, watch"
+  },
+  {
+    "name": "frame",
+    "imageURL": "https://cdn.shopify.com/s/files/1/0631/1647/6675/products/wooden-birthday-cake-stand-glass-ceramic-pedestal-cake-holder-stand-with-dome-for-home-party-decoration-revolving-cake-stand-2-tier-display-stand-wedding_800x.jpg?v=1651143687",
+    "desc": "Display your cherished memories with our collection of high-quality frames. From classic wooden designs to sleek metal finishes, we have a variety of styles to suit any decor. Our frames come in a range of sizes to fit your favorite photos perfectly. Browse now and showcase your special moments!",
+    "price": 500,
+    "variant": ["frame set", "hanging frame"],
+    "reviews": [
+      {
+        "byuser": "user2",
+        "msg": "aesthetic feel",
+        "rating": 4
+      },
+      {
+        "byuser": "user1",
+        "msg": "looks good on the wall",
+        "rating": 4
+      },
+      {
+        "byuser": "user3",
+        "msg": "great choice",
+        "rating": 3
+      }
+    ],
+    "tags": "wallframe,frame"
+  },
+  {
+    "name": "Vase",
+    "imageURL": "https://cdn.shopify.com/s/files/1/0631/1647/6675/products/Nestroot_53_700x.png?v=1675675930",
+    "desc": "Add a touch of elegance to your home with our stunning vase collection. Our vases come in a variety of materials, shapes, and sizes to complement any decor. Whether you're looking for a statement piece or a simple accent, we have something for everyone. Browse now and elevate your interior design!",
+    "price": 500,
+    "variant": ["ceramic vase", "glass vase"],
+    "reviews": [
+      {
+        "byuser": "user2",
+        "msg": "elegant and classy",
+        "rating": 4
+      },
+      {
+        "byuser": "user1",
+        "msg": "gives room a new feel",
+        "rating": 4
+      },
+      {
+        "byuser": "user3",
+        "msg": "great choice",
+        "rating": 3
+      }
+    ],
+    "tags": "vase,glass vase"
+  }
 ]
