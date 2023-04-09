@@ -1,7 +1,4 @@
 <script>
-  export let itemName;
-  export let itemImage;
-  export let
 </script>
 
 <main class="py-6 px-4 sm:p-6 md:py-10 md:px-8">
