@@ -9,9 +9,9 @@
 </script>
 
 <div
-  class="w-[30%] h-auto border border-black m-auto bg-blue-800 flex flex-col">
+  class="w-[30%] h-auto border border-black m-auto flex flex-col bg-slate-800">
 
-  <div class="p-5 backdrop-blur-md">
+  <div class="p-5 ">
     <!-- Image section -->
     <div class=" h-60 mb-2 relative">
       <img src={img} alt="" srcset="" class="w-full h-full " />
@@ -22,10 +22,10 @@
 
     <!-- Name  -->
     <h2 class="text-2xl relative top-[-50px] text-white left-2">{name}</h2>
-    <p class="blur-sm">{desc}</p>
+    <p class="text-white">{desc}</p>
 
     <!-- Rating -->
-    <div class=" font-extrabold text-6xl flex justify-center mb-2">⭐⭐⭐</div>
+    <div class=" font-extrabold text-6xl flex justify-center mb-2" />
     <h3 class="text-center text-green-700 text-2xl mb-3 font-bold">
       Price: {price}$
     </h3>
@@ -42,7 +42,7 @@
     <button
       class="w-[100%] text-white p-3 border border-black text-center
       bg-gradient-to-br from-slate-900 to-slate-700">
-      Buy Now
+      Buy Now⭐⭐⭐
     </button>
   </div>
 </div>
