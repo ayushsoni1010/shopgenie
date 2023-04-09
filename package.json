@@ -20,6 +20,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@alan-ai/alan-sdk-web": "^1.8.43"
+    "@alan-ai/alan-sdk-web": "^1.8.43",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0"
   }
 }
